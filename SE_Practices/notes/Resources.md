@@ -44,3 +44,9 @@ https://github.com/iterative/dvc
 https://becominghuman.ai/how-to-version-control-your-machine-learning-task-ii-d37da60ef570
 https://www.kdnuggets.com/2017/05/data-version-control-iterative-machine-learning.html
 Conflicts: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts
+
+Unit Tests:
+- https://www.predictiveanalyticsworld.com/machinelearningtimes/four-ways-data-science-goes-wrong-and-how-test-driven-data-analysis-can-help/6947/
+- https://www.youtube.com/watch?v=FxSsnHeWQBY
+- https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder
+
