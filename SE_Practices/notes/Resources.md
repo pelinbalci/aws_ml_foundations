@@ -47,6 +47,12 @@ Conflicts: https://help.github.com/en/github/collaborating-with-issues-and-pull-
 
 Unit Tests:
 - https://www.predictiveanalyticsworld.com/machinelearningtimes/four-ways-data-science-goes-wrong-and-how-test-driven-data-analysis-can-help/6947/
-- https://www.youtube.com/watch?v=FxSsnHeWQBY
-- https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder
+- https://www.youtube.com/watch?v=FxSsnHeWQBY # video 
+- https://speakerdeck.com/pycon2014/getting-started-testing-by-ned-batchelder # presentation 
+- https://nedbatchelder.com/text/test0.html  # codes and video presentation for unit test 
+- https://docs.python-guide.org/writing/tests/ # all kinds of unit test
+- https://engineering.pivotal.io/post/test-driven-development-for-data-science/ # great explanation!
+- https://www.linkedin.com/pulse/data-science-test-driven-development-sam-savage/ # problems on unit test in ds.
 
+Integration Test:
+- https://www.fullstackpython.com/integration-testing.html
