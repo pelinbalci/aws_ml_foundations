@@ -1,12 +1,14 @@
 # Logging
 
+Ref: https://classroom.udacity.com/courses/ud090/lessons/3b9b9174-e1ed-4121-a9d5-ac46a70e8bb6/concepts/3517e282-66c4-42a2-baa7-ef5f27f1dfa4
+
 Logging is valuable for understanding the events that occur while running your program. 
 
 For example, if you run your model over night and see that it's producing ridiculous results the next day, 
 log messages can really help you understand more about the context in which this occurred. Lets learn about 
 the qualities that make a log message effective.
 
-- Be profeesional.
+- Be professional.
 
 ```sh
 Bad: omg not workin!

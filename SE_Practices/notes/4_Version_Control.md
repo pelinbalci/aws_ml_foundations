@@ -1,3 +1,5 @@
+Ref: https://classroom.udacity.com/courses/ud090/lessons/ac47b924-72d3-4bf9-971c-bfccfa368b02/concepts/7f87f93a-2073-4396-9ee1-0b0d7ef23a28
+
 ### Without using version control system:
 
 What combinations and parameters did I use? 
@@ -39,7 +41,8 @@ Push changes to remote repository
     
     git push origin develop
 
-https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
+-----------
+Ref: https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
 
 In addition to the often perplexing nature of using the actual protocol, 
 its missing a lot of the functionality that you need for machine learning (because it wasn’t created for ML!).
@@ -47,7 +50,8 @@ its missing a lot of the functionality that you need for machine learning (becau
 Git itself doesn’t allow you to track data, changes to model files, and model dependencies. 
 
 There are extensions that can help, but those solutions are tough to implement and rarely complete.
-    
+
+-----------  
 
 ### Jupyter 
 
@@ -58,6 +62,8 @@ changes to hyperparameters.
 
 
 ### DVC
+
+----------- 
 
 Ref: https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
 
@@ -73,6 +79,8 @@ For example, according to their tutorial:
         
 It’s a streamlined version of combining Git with machine learning specific functionality for data management.
 
+----------- 
+
 Useful Links:
 - https://github.com/iterative/dvc
 - https://becominghuman.ai/how-to-version-control-your-machine-learning-task-ii-d37da60ef570
@@ -80,6 +88,9 @@ Useful Links:
     
     
 ### How to use DVC:
+
+----------- 
+
 Ref: https://becominghuman.ai/how-to-version-control-your-machine-learning-task-ii-d37da60ef570
 
 " Steps:
@@ -111,3 +122,4 @@ For the prediction model, I used an LSTM (Long Short Term Memory) Recurrent Neur
 - The model saves the checkpoints in a CSV file with the name assigned and the saved CSV can be submitted on the 
 Numerai submission page. "
 
+----------- 

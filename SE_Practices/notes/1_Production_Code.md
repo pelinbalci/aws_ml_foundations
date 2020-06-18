@@ -1,5 +1,7 @@
 #### Production Code
 
+Ref: https://classroom.udacity.com/courses/ud090/lessons/ac47b924-72d3-4bf9-971c-bfccfa368b02/concepts/ca9168f7-0405-41f8-b392-db1e77201880
+
 Production code == Code run on production servers
 
 It should be Clean and Modular. 
@@ -52,6 +54,8 @@ But it is inefficient time for Twitter. It should be fed instantaneously.
 
 #### Lists & Sets
 
+*******************
+
 https://stackoverflow.com/questions/8929284/what-makes-sets-faster-than-lists/8929445#8929445
 
 list: 
@@ -71,3 +75,5 @@ but now you know in which drawer your socks are, say in the 3rd drawer.
 So, you will just search in the 3rd drawer, instead of searching in all drawers. 
 
 That's what we call O(1), because in the worst scenario you will look in just one drawer.
+
+*******************

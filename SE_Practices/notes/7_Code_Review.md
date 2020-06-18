@@ -1,5 +1,7 @@
 # Code Review
 
+Ref: https://classroom.udacity.com/courses/ud090/lessons/3b9b9174-e1ed-4121-a9d5-ac46a70e8bb6/concepts/99aec7b5-9702-459f-9e7b-26c00cd6ce30
+
 - Catch errors
 - Ensure readability
 - Check standarts are met
@@ -29,11 +31,17 @@ The code should perform within our targets for a particular area. It should not 
 
 ************* 
 
-Another ref: https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
+Ref: https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
+
+    Tip:  I will often do a git add for the affected files / directories and then run a git diff --staged 
+    to examine the changes I have not yet committed.
+
+************* 
 
 # Tips
 
-Use pylint in terminal: `pylint path_of_py`
+Use pylint in terminal: `pylint path_of_py` --> this gives score to your code. I've tried it for a file which includes a basic 
+function and it gave 5/10 :/ 
 
 Rather than commanding people to change their code a specific way because it's better, it will go a long way to explain 
 to them the consequences of the current code and suggest changes to improve it
