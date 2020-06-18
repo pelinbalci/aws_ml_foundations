@@ -56,3 +56,7 @@ Unit Tests:
 
 Integration Test:
 - https://www.fullstackpython.com/integration-testing.html
+
+Code Reviews:
+- https://github.com/lyst/MakingLyst/tree/master/code-reviews # nice tips
+- https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
