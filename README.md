@@ -2,8 +2,13 @@
 
 This repository includes my notes from the lecture "AWS Machine Learning Foundations Course" given by Udacity.
 
-The course link: https://classroom.udacity.com/courses/ud090
-OOP Codes: https://github.com/udacity/DSND_Term2/tree/master/lessons/ObjectOrientedProgramming
+- The course link: https://classroom.udacity.com/courses/ud090
+- OOP Codes: https://github.com/udacity/DSND_Term2/tree/master/lessons/ObjectOrientedProgramming
+
+Some of the notes are directly coming from the lectures (I copied and pasted them). 
+
+The codes are comin from the lectures; some of them are in ipynb type some of them are py type; I copy and paste all the 
+codes from the lectures.
 
 ### SE Practices
 
