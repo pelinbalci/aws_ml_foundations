@@ -34,7 +34,7 @@ Example2:
     
 # Writing Class:
 
-[code]()
+[code](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/shirt_example.py)
 
 - Capitalize the first letter in class name. use () or not.
 - 'self' stores your attributes, colors, size etc. --> makes those attributes available throughout your class.
