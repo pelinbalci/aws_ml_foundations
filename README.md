@@ -10,6 +10,8 @@ Some of the notes are directly coming from the lectures (I copied and pasted the
 The codes are comin from the lectures; some of them are in ipynb type some of them are py type; I copy and paste all the 
 codes from the lectures.
 
+[Resources](https://github.com/pelinbalci/aws_ml_foundations/blob/master/Resources.md)
+
 ### SE Practices
 
 1. [codes](https://github.com/pelinbalci/aws_ml_foundations/tree/master/SE_Practices/codes)
@@ -35,20 +37,31 @@ codes from the lectures.
     - [Unit test](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/5_Unit_Test.md)
     - [Logging](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/6_Logging.md)
     - [Code_Review](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/7_Code_Review.md)
-    - [Resources](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/Resources.md)
-
-
+ 
+ 
 ### Object Oriented Programming
 
-1. codes()
+1. First apps for OOP: [codes]()
     
+    These codes are first applications of OOP
     - First [OOP_exercise](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/shirt_example.py) and its [test_file](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/test_shirt_ex.py)
     - The code should be modular: [class](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/modular_shirt_class.py), [instance](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/modular_shirt_example.py)
     - A simple example for [setter](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/setter_example.py)
     - [Quiz](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/quiz_exercise.py) for defining two classes, attributes and methods
 
-2. notes()
+2. Writing gaussian class: [code_gaussian_class]()
 
+    First applications for gaussian distribution class:
+    - [simple_application] and its [test_file]
+    - [adding_magic_methods] and its [test_file]
+    
+
+3. Learn Inheritance: [code_inheritance_example]()
+    - First example is for [clothing](), other one is for [gaussian_distribution]()
+    
+    
+2. notes()
     - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
+    - [Magic methods and inheritance notes]()
     
     
