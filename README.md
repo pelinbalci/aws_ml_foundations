@@ -35,7 +35,20 @@ codes from the lectures.
     - [Unit test](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/5_Unit_Test.md)
     - [Logging](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/6_Logging.md)
     - [Code_Review](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/7_Code_Review.md)
-    - [Reources](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/Resources.md)
+    - [Resources](https://github.com/pelinbalci/aws_ml_foundations/blob/master/SE_Practices/notes/Resources.md)
 
 
+### Object Oriented Programming
+
+1. codes()
+    
+    - First [OOP_exercise](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/shirt_example.py) and its [test_file](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/test_shirt_ex.py)
+    - The code should be modular: [class](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/modular_shirt_class.py), [instance](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/modular_shirt_example.py)
+    - A simple example for [setter](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/setter_example.py)
+    - [Quiz](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/quiz_exercise.py) for defining two classes, attributes and methods
+
+2. notes()
+
+    - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
+    
     
