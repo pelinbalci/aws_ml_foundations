@@ -41,7 +41,7 @@ codes from the lectures.
  
 ### Object Oriented Programming
 
-1. First apps for OOP: [codes]()
+1. First apps for OOP: [codes](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/codes)
     
     These codes are first applications of OOP
     - First [OOP_exercise](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/shirt_example.py) and its [test_file](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/test_shirt_ex.py)
@@ -49,19 +49,19 @@ codes from the lectures.
     - A simple example for [setter](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/setter_example.py)
     - [Quiz](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/codes/quiz_exercise.py) for defining two classes, attributes and methods
 
-2. Writing gaussian class: [code_gaussian_class]()
+2. Writing gaussian class: [code_gaussian_class](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/code_gaussian_class)
 
     First applications for gaussian distribution class:
-    - [simple_application] and its [test_file]
-    - [adding_magic_methods] and its [test_file]
+    - [simple_application](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_gaussian_class/gaussian_distribution_exercise.py) and its [test_file](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_gaussian_class/test.py)
+    - [adding_magic_methods](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_gaussian_class/gaussian_with_magic.py) and its [test_file](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_gaussian_class/test_magic.py)
     
 
-3. Learn Inheritance: [code_inheritance_example]()
-    - First example is for [clothing](), other one is for [gaussian_distribution]()
+3. Learn Inheritance: [code_inheritance_example](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/code_inheritance_example)
+    - First example is for [clothing](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_inheritance_example/clothing_example.py), other one is for [gaussian_distribution](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_inheritance_example/gaussian_distribution.py)
     
     
 2. notes()
     - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
-    - [Magic methods and inheritance notes]()
+    - [Magic methods and inheritance notes](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/1_magic_methods_inheritance.md)
     
     
