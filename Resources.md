@@ -1,4 +1,4 @@
-#### SE Part I
+#### SE Part
 
 
 If condition: 
@@ -6,43 +6,37 @@ https://datatofish.com/if-condition-in-pandas-dataframe/
 https://stackoverflow.com/questions/49857470/replace-value-in-pandas-dataframe-based-on-condition
 
 Pep-008 Doc:
-
 https://www.python.org/dev/peps/pep-0008/?#code-lay-out
 
 Docstring: 
-
-https://www.python.org/dev/peps/pep-0257/
-https://numpydoc.readthedocs.io/en/latest/format.html
+- https://www.python.org/dev/peps/pep-0257/
+- https://numpydoc.readthedocs.io/en/latest/format.html
 
 Very nice ReadMe: 
-https://github.com/udacity/ud777-writing-readmes
-https://github.com/twbs/bootstrap
-https://github.com/scikit-learn/scikit-learn
-https://github.com/udacity/create-your-own-adventure
+- https://github.com/udacity/ud777-writing-readmes
+- https://github.com/twbs/bootstrap
+- https://github.com/scikit-learn/scikit-learn
+- https://github.com/udacity/create-your-own-adventure
 
 Lecture for ReadMe: 
-
-https://classroom.udacity.com/courses/ud777/lessons/5338568539/concepts/53317786070923
-
-https://github.com/udacity/ud777-writing-readmes
+- https://classroom.udacity.com/courses/ud777/lessons/5338568539/concepts/53317786070923
+- https://github.com/udacity/ud777-writing-readmes
 
 licence:
-
-https://choosealicense.com/
-
+- https://choosealicense.com/
 
 Markdown
-https://help.github.com/en/github/writing-on-github
-https://help.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github
-https://help.github.com/en/github/writing-on-github
+- https://help.github.com/en/github/writing-on-github
+- https://help.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github
+- https://help.github.com/en/github/writing-on-github
 
-preview: https://dillinger.io/
-
+Preview
+- https://dillinger.io/
 
 Data Version Control:
-https://github.com/iterative/dvc
-https://becominghuman.ai/how-to-version-control-your-machine-learning-task-ii-d37da60ef570
-https://www.kdnuggets.com/2017/05/data-version-control-iterative-machine-learning.html
+- https://github.com/iterative/dvc
+- https://becominghuman.ai/how-to-version-control-your-machine-learning-task-ii-d37da60ef570
+- https://www.kdnuggets.com/2017/05/data-version-control-iterative-machine-learning.html
 Conflicts: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts
 
 Unit Tests:
@@ -60,3 +54,13 @@ Integration Test:
 Code Reviews:
 - https://github.com/lyst/MakingLyst/tree/master/code-reviews # nice tips
 - https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html
+
+
+# OOP
+
+Advanced Topics:
+
+- https://realpython.com/instance-class-and-static-methods-demystified/
+- https://www.python-course.eu/python3_class_and_instance_attributes.php
+- https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+- https://realpython.com/primer-on-python-decorators/
