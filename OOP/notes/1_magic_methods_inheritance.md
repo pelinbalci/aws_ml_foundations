@@ -21,10 +21,6 @@ Be careful: give values to args in the __init method.
 
 - Inheritance helps organize code with a more general version of a class and then spicific children. 
 - It can make OOP more efficient to write
-- Updates to parent automatically trcikle down to its children. 
-
-
-- If you define a new method to children you can't use it for parent class!
-
+- Updates to parent automatically trickle down to its children. 
 
     
