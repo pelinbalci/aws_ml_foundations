@@ -41,6 +41,11 @@ codes from the lectures.
  
 ### Object Oriented Programming
 
+0. notes()
+    - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
+    - [Magic methods and inheritance notes](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/1_magic_methods_inheritance.md)
+    
+
 1. First apps for OOP: [codes](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/codes)
     
     These codes are first applications of OOP
@@ -59,9 +64,10 @@ codes from the lectures.
 3. Learn Inheritance: [code_inheritance_example](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/code_inheritance_example)
     - First example is for [clothing](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_inheritance_example/clothing_example.py), other one is for [gaussian_distribution](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/code_inheritance_example/gaussian_distribution.py)
     
-    
-2. notes()
-    - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
-    - [Magic methods and inheritance notes](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/1_magic_methods_inheritance.md)
-    
+  
+4. Advanced Topics 
+    - What is [first_class_objects](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/first_class_objects.py)?
+    - Small example for [mixins](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/mixin.py)
+    - Use [inner_functions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/inner_functions.py)
+    - Examples for [simple_decorators](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/simple_decorators.py)
     
