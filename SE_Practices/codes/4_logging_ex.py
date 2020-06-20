@@ -13,7 +13,6 @@ import logging
 
 
 def read_csv():
-    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.info('Reading csv & Prind fixed acidity')
     df = pd.read_csv('/Users/pelin.balci/PycharmProjects/aws_ml_foundations/SE_Practices/inputs/winequality-red.csv', sep=';')
     print(df['fixed acidity'].head())
@@ -22,7 +21,6 @@ def read_csv():
 
 # ### Renaming Columns
 def rename_cols(df):
-    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.info('Renaming the columns')
     df.columns = [label.replace(' ', '_') for label in df.columns]
     return df
@@ -35,6 +33,7 @@ def create_new_values(df, column_name):
 
 
 def main():
+    logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.getLogger().setLevel(logging.DEBUG)
     logging.info('Started')
     df = read_csv()
@@ -50,4 +49,4 @@ if __name__ == '__main__':
     main()
 
 
-logging.debug('Trial: This message should appear on the console')
+logging.debug('This message should appear on the console')
