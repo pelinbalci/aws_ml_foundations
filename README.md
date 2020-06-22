@@ -45,7 +45,8 @@ codes from the lectures.
 0. notes()
     - OOP [definitions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/0_OOP_definitions.md) & using docstrings
     - [Magic methods and inheritance notes](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/1_magic_methods_inheritance.md)
-    
+    - [Making package](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/2_making_package.md)
+    - Clear explanations for [environment](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/notes/3_environments.md)
 
 1. First apps for OOP: [codes](https://github.com/pelinbalci/aws_ml_foundations/tree/master/OOP/codes)
     
@@ -72,3 +73,8 @@ codes from the lectures.
     - Use [inner_functions](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/inner_functions.py)
     - Examples for [simple_decorators](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/advanced_topics/simple_decorators.py)
     
+5. [Python Package example](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/python_package/), 
+   [Binomial Package Quiz](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/binomial_package)
+   
+
+   

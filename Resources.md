@@ -64,3 +64,8 @@ Advanced Topics:
 - https://www.python-course.eu/python3_class_and_instance_attributes.php
 - https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
 - https://realpython.com/primer-on-python-decorators/
+
+
+How to contribute to a GitHub project?
+- https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/
+- https://github.com/MarcDiethelm/contributing/blob/master/README.md
