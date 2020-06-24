@@ -50,8 +50,18 @@ name is the same as the folder name.
 
 ## Terminal Commands
 
+Be in the right directory: 
+
     cd binomial_package_files
+    
+This command will create 2 new folders: dist & bg_dist.egg-info
+
     python setup.py sdist
+   
+In the dist folder there is tar.gz ---> The .tar.gz file is called a source archive.
+
+If you haven't installed twine yet:    
+
     pip install twine
 
 
@@ -80,3 +90,20 @@ I've tried to use it, you can find just a small example [here](https://github.co
 
 ⭐⭐️⭐️ ️And here is my first package =) https://pypi.org/project/bg-dist/ ⭐️⭐️⭐️
 
+
+
+# More Info
+
+Ref: https://classroom.udacity.com/courses/ud090/lessons/55951aa6-a28f-4642-a9b4-f9ea92a825ec/concepts/2b79b827-2756-41bb-9b43-fe3430b6d7d8
+The new version of upload is: 
+
+    python3 setup.py sdist bdist_wheel
+    
+The difference is that you will get both a .tar.gz file and a .whl file. 
+The .whl file is a built distribution. The .whl file is a newer type of installation file for Python packages. 
+When you pip install a package, pip will first look for a whl file (wheel file) and if there isn't one, will then look 
+for the tar.gz file. 
+
+A tar.gz file, ie an sdist, contains the files needed to compile and install a Python package. A whl file, 
+ie a built distribution, only needs to be copied to the proper place for installation. 
+Behind the scenes, pip installing a whl file has fewer steps than a tar.gz file.

@@ -69,3 +69,9 @@ Advanced Topics:
 How to contribute to a GitHub project?
 - https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/
 - https://github.com/MarcDiethelm/contributing/blob/master/README.md
+
+Upload to Pypi
+- https://docs.python.org/3/distutils/packageindex.html
+- https://packaging.python.org/tutorials/packaging-projects/
+- https://opensource.org/licenses/MIT
+
