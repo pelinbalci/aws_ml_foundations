@@ -2,7 +2,8 @@ Ref: https://classroom.udacity.com/courses/ud090/lessons/55951aa6-a28f-4642-a9b4
 
 # Making a package
 
-Example package is [here]()
+Example package is [here](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/python_package/)
+Quiz for binomial package is [here](https://github.com/pelinbalci/aws_ml_foundations/blob/master/OOP/quiz_binomial_package/)
 
 There are distribution package and setup.py file. 
 
