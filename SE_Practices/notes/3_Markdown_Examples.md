@@ -67,3 +67,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
+
+|   | reject H0 (pred=1)  | not reject Ho (pred=0)  |
+|---|---|---|
+| Ho is true (disase = 0)  | FP  | TN  |  
+| H1 is true (disase = 1) | TP  | FN  | 
+
