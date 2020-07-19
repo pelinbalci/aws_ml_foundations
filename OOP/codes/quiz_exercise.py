@@ -139,8 +139,8 @@ employee_1.sell_pants(pants_obj_2)
 employee_1.display_sales()
 
 total_sales = employee_1.calculate_sales()
-print(total_sales)
-print(employee_1.calculate_commission(0.1))
+print('total sales is ', total_sales)
+print('employee_1 comission', employee_1.calculate_commission(0.1))
 
 
 def check_results():
