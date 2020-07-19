@@ -12,7 +12,7 @@ class Shirt:
         return profit
 
     def __repr__(self):
-        return 'price of the shirt {}, cost of the shirt {}'.format(self.price, self.cost)
+        return '{} color, {} size shirt, the price of the shirt {}, cost of the shirt {}'.format(self.color, self.size, self.price, self.cost)
 
     def __add__(self, other):
 
