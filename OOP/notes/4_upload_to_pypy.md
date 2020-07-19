@@ -54,7 +54,7 @@ Be in the right directory:
 
     cd binomial_package_files
     
-This command will create 2 new folders: dist & bg_dist.egg-info
+This command will create 2 new folders: dist & bg_dist.egg-info:
 
     python setup.py sdist
    
@@ -75,7 +75,7 @@ how to install your package ?
 
     pip install --index-url https://test.pypi.org/simple/ bg-dist
 
-command to upload to the pypi repository
+command to upload to the pypi repository & install it:
 
     twine upload dist/*
     pip install bg-dist
