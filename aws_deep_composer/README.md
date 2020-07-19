@@ -173,6 +173,17 @@ to improving computer-aided design of complex objects.
 Generative AI enables computers to learn the underlying pattern of a given problem and use this knowledge to generate 
 new content from input (such as images, music, and text).
 
+
+### How Computers understands music?
+
+Pitch is a tone that is assigned a relative position on a musical scale. Each note is assigned a numeric value. (41- 72)
+
+Velocity encodes how hard a single note is pressed. Pressing the key faster results in a higher value for the velocity, which creates a louder sound.  (1-127)
+
+Tempo describes how fast music is played. Music typically follows a certain beat or meter, which drives the rhythm of the notes played.
+
+The MIDI is file format: includes; tempo, velocity, pitch, instruments.
+
 ### Types of Generative AI in AWS DeepCpomposer:
 There are two types of Generative AI networks in AWS deepComposer: U-Net and MuseGAN.
 
@@ -281,16 +292,6 @@ So, the discriminator needs to be retrained as well.
 - Beginning with the discriminator on the first iteration, we alternate between training these two networks until we 
 reach some stop condition (ex: the algorithm has seen the entire dataset a certain number of times).
 
-
-### How Computers understands music?
-
-Pitch is a tone that is assigned a relative position on a musical scale. Each note is assigned a numeric value. (41- 72)
-
-Velocity encodes how hard a single note is pressed. Pressing the key faster results in a higher value for the velocity, which creates a louder sound.  (1-127)
-
-Tempo describes how fast music is played. Music typically follows a certain beat or meter, which drives the rhythm of the notes played.
-
-The MIDI is file format: includes; tempo, velocity, pitch, instruments.
 
 # Music Studio 
 
