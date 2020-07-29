@@ -11,14 +11,16 @@
 # features may be related to quality ratings. Can you refactor this code to make it more clean and modular?
 
 import pandas as pd
-df = pd.read_csv('winequality-red.csv', sep=';')
+import numpy as np
+df = pd.read_csv('/Users/pelin.balci/PycharmProjects/aws_ml_foundations/SE_Practices/inputs/winequality-red.csv', sep=';')
 df.head()
 
 
 # ### Renaming Columns
 
 # First Way:
-new_df = df.rename(columns={'fixed acidity': 'fixed_acidity',
+new_df = df.copy()
+new_df = new_df.rename(columns={'fixed acidity': 'fixed_acidity',
                              'volatile acidity': 'volatile_acidity',
                              'citric acid': 'citric_acid',
                              'residual sugar': 'residual_sugar',
@@ -28,21 +30,22 @@ new_df = df.rename(columns={'fixed acidity': 'fixed_acidity',
 
 # Second Way:
 
-labels = list(df.columns)
+second_df = df.copy()
+labels = list(second_df.columns)
 labels[0] = labels[0].replace(' ', '_')
 labels[1] = labels[1].replace(' ', '_')
 labels[2] = labels[2].replace(' ', '_')
 labels[3] = labels[3].replace(' ', '_')
 labels[5] = labels[5].replace(' ', '_')
 labels[6] = labels[6].replace(' ', '_')
-df.columns = labels
+second_df.columns = labels
 
 # Third Way
-
-labels = list(df.columns)
+third_df = df.copy()
+labels = list(third_df.columns)
 for i in range(len(labels)):
     labels[i] = labels[i].replace(' ', '_')
-df.columns = labels
+third_df.columns = labels
 
 # Best Way
 
@@ -59,58 +62,63 @@ df.columns = [label.replace(' ', '_') for label in df.columns]
 
 # First Way:
 
-median_alcohol = df.alcohol.median()
-for i, alcohol in enumerate(df.alcohol):
-    if alcohol >= median_alcohol:
-        df.loc[i, 'alcohol'] = 'high'
-    else:
-        df.loc[i, 'alcohol'] = 'low'
-df.groupby('alcohol').quality.mean()
+def long_way(df):
+    median_alcohol = df.alcohol.median()
+    for i, alcohol in enumerate(df.alcohol):
+        if alcohol >= median_alcohol:
+            df.loc[i, 'alcohol'] = 'high'
+        else:
+            df.loc[i, 'alcohol'] = 'low'
+    df.groupby('alcohol').quality.mean()
 
-median_pH = df.pH.median()
-for i, pH in enumerate(df.pH):
-    if pH >= median_pH:
-        df.loc[i, 'pH'] = 'high'
-    else:
-        df.loc[i, 'pH'] = 'low'
-df.groupby('pH').quality.mean()
+    median_pH = df.pH.median()
+    for i, pH in enumerate(df.pH):
+        if pH >= median_pH:
+            df.loc[i, 'pH'] = 'high'
+        else:
+            df.loc[i, 'pH'] = 'low'
+    df.groupby('pH').quality.mean()
 
-median_sugar = df.residual_sugar.median()
-for i, sugar in enumerate(df.residual_sugar):
-    if sugar >= median_sugar:
-        df.loc[i, 'residual_sugar'] = 'high'
-    else:
-        df.loc[i, 'residual_sugar'] = 'low'
-df.groupby('residual_sugar').quality.mean()
+    median_sugar = df.residual_sugar.median()
+    for i, sugar in enumerate(df.residual_sugar):
+        if sugar >= median_sugar:
+            df.loc[i, 'residual_sugar'] = 'high'
+        else:
+            df.loc[i, 'residual_sugar'] = 'low'
+    df.groupby('residual_sugar').quality.mean()
 
-median_citric_acid = df.citric_acid.median()
-for i, citric_acid in enumerate(df.citric_acid):
-    if citric_acid >= median_citric_acid:
-        df.loc[i, 'citric_acid'] = 'high'
-    else:
-        df.loc[i, 'citric_acid'] = 'low'
-df.groupby('citric_acid').quality.mean()
+    median_citric_acid = df.citric_acid.median()
+    for i, citric_acid in enumerate(df.citric_acid):
+        if citric_acid >= median_citric_acid:
+            df.loc[i, 'citric_acid'] = 'high'
+        else:
+            df.loc[i, 'citric_acid'] = 'low'
+    df.groupby('citric_acid').quality.mean()
 
+    return df
 
 # Second Way:
 
-import numpy as np
-median_alcohol = df.alcohol.median()
-median_pH = df.pH.median()
-median_sugar = df.residual_sugar.median()
-median_citric_acid = df.citric_acid.median()
+def separately(df):
+    import numpy as np
+    median_alcohol = df.alcohol.median()
+    median_pH = df.pH.median()
+    median_sugar = df.residual_sugar.median()
+    median_citric_acid = df.citric_acid.median()
 
-df['alcohol'] = np.where(df['alcohol'] >= median_alcohol, 'high', 'low')
-df.groupby('alcohol').quality.mean()
+    df['alcohol'] = np.where(df['alcohol'] >= median_alcohol, 'high', 'low')
+    df.groupby('alcohol').quality.mean()
 
-df['citric_acid'] = np.where(df['citric_acid'] >= median_citric_acid, 'high', 'low')
-df.groupby('citric_acid').quality.mean()
+    df['citric_acid'] = np.where(df['citric_acid'] >= median_citric_acid, 'high', 'low')
+    df.groupby('citric_acid').quality.mean()
 
-df['residual_sugar'] = np.where(df['residual_sugar'] >= median_sugar, 'high', 'low')
-df.groupby('residual_sugar').quality.mean()
+    df['residual_sugar'] = np.where(df['residual_sugar'] >= median_sugar, 'high', 'low')
+    df.groupby('residual_sugar').quality.mean()
 
-df['pH'] = np.where(df['pH'] >= median_pH, 'high', 'low')
-df.groupby('pH').quality.mean()
+    df['pH'] = np.where(df['pH'] >= median_pH, 'high', 'low')
+    df.groupby('pH').quality.mean()
+
+    return df
 
 
 # Third Way:
@@ -123,10 +131,11 @@ def numeric_to_buckets(df, column_name):
         else:
             df.loc[i, column_name] = 'low' 
 
-
-for feature in df.columns[:-1]:
-    numeric_to_buckets(df, feature)
-    print(df.groupby(feature).quality.mean(), '\n')
+loc_df = df.copy()
+for feature in loc_df.columns[:-1]:
+    numeric_to_buckets(loc_df, feature)
+    print('WITH LOC:')
+    print(loc_df.groupby(feature).quality.mean(), '\n')
 
 
 # Fourth Way:
@@ -136,10 +145,23 @@ def create_new_values(df, column_name):
     df[column_name] = np.where(df[column_name] >= median_value, 'high', 'low')
 
 
-for label in df.columns[:-1]:
-    create_new_values(df, label)
-    print(df.groupby(label).quality.mean(), '\n')
+np_df = df.copy()
+for label in np_df.columns[:-1]:
+    create_new_values(np_df, label)
+    print('WITH NP WHERE:')
+    print(np_df.groupby(label).quality.mean(), '\n')
 
+
+# Best Way -2
+def create_values(df, column_name):
+    median_value = df[column_name].median()
+    df[column_name] = ['high' if x >= median_value else 'low' for x in df[column_name]]
+
+best_df = df.copy()
+for label in best_df.columns[:-1]:
+    create_values(best_df, label)
+    print('WITH FOR LOOP:')
+    print(best_df.groupby(label).quality.mean(), '\n')
 
 # NOTES:
 
